@@ -31,7 +31,6 @@ namespace Thierry
         {
             Prog = new Program();
             Prog.MainAsync(args).GetAwaiter().GetResult();
-            // new Program().MainAsync(args).GetAwaiter().GetResult();
         }
 
         public void CheckHat()
